@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Goldman&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url(file:///C:/Users/91709/Downloads/d9xaji8-5cd9ce07-347c-42cb-a0e2-3b54664e9c71.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 8vh;
+    background-color: aqua;
+    font-family: 'Goldman', cursive;
+    width: 100%;
+}
+.logo a{
+    color: red;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 20px;
+    text-decoration: none;
+
+}
+.navlinks{
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+
+}
+.navlinks li{
+    list-style: none
+}
+.navlinks a{
+    color: rebeccapurple;
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 3px;
+    font-size: 15px;
+    
+}
+.wrapper{
+    margin-top: 50px;
+}
+
+.wrapper h1{
+    font-family: 'Goldman',cursive;
+    font-size: 52px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+.team{
+    display: flex;
+    justify-content: center;
+    width: auto;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.team .teammember{
+    background: white;
+    margin: 5px;
+    margin-bottom: 50px;
+    width: 300px;
+    padding: 20px;
+    line-height: 20px;
+    color: aqua;
+    position: relative;
+    
+}
+.team .teammember h3{
+    color: chartreuse;
+    font-size: 28px;
+    margin-top: 50px;
+
+}
+.team .teammember p.role{
+    color: chocolate ;
+    margin: 12px 0;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.team .teammember .teamimage{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: white;
+    top: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.team .teammember .teamimage img{
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+
+}
